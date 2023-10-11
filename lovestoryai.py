@@ -1,7 +1,7 @@
 import openai
 import time
 
-openai.api_key = "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"
+openai.api_key = "api key goes here"
 
 def generate_love_story(characters, ages, story_type, detail_level):
     prompt = (f"Write a {detail_level} love story about {characters[0]['name']} and {characters[1]['name']}. "
